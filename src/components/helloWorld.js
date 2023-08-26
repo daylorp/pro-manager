@@ -1,11 +1,9 @@
-function helloWorld() {
-
+function HelloWorld() {
     return (
         <div>
             <h1>Componente</h1>
         </div>
     )
-
 }
 
-export default helloWorld
+export default HelloWorld
