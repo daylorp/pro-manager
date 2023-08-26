@@ -1,0 +1,11 @@
+.fraseContainer {
+    background-color: #fff;
+    border: 1px dashed #424251;
+}
+
+.fraseContent {
+    color: #000076;
+    font-weight: 800;
+    font-family: 'Arial';
+    font-size: 14px;
+}
