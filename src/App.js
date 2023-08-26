@@ -1,20 +1,19 @@
 import './App.css'
 import Pessoa from './components/Pessoa'
-import Frase from './components/Frase'
-import List from './components/List'
+import Form from './components/Form'
+import Eventos from './components/Eventos'
 
 function App() {
 
-const nome = "Maria";
   return (
     <div className="App">
 
       <Pessoa nome="Dayana" idade="25" profissao="Programadora" foto="https://via.placeholder.com/150"/>
     
-      <Frase />
-
-      <List />
+      <Eventos numero="1"/>
       
+      <Form />
+
     </div>
   );
 }
